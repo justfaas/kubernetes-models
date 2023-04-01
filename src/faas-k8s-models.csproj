@@ -5,11 +5,11 @@
     <RootNamespace>Faactory.k8s.Models</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageId>Faactory.JustFaaS.Models</PackageId>
+    <PackageId>JustFaaS.Kubernetes.Models</PackageId>
     <Version>0.1.1</Version>
     <Authors>Goncalo Oliveira</Authors>
     <Description>FaaS Kuberneted Models</Description>
-    <RepositoryUrl>https://github.com/goncalo-oliveira/faas-k8s-models</RepositoryUrl>
+    <RepositoryUrl>https://github.com/justfaas/kubernetes-models</RepositoryUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>faactory.png</PackageIcon>
