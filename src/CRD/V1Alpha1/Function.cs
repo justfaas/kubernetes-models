@@ -16,6 +16,7 @@ public sealed class V1Alpha1Function : CustomKubernetesObject<V1Alpha1Function.F
         public IList<V1EnvVar> Env { get; set; } = new List<V1EnvVar>();
         public IngressSpec? Ingress { get; set; }
         public IList<string> Secrets { get; set; } = new List<string>();
+        public IList<string> ConfigMaps { get; set; } = new List<string>();
 
         public sealed class IngressSpec
         {
