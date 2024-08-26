@@ -26,7 +26,7 @@ public class JsonSerializationTests
         var json = k8s.KubernetesJson.Serialize( app );
         var expectedJson = 
         """
-        {"apiVersion":"v1alpha1","kind":"Function","metadata":{"name":"test","namespace":"default"},"spec":{"image":"image:tag","port":8080,"env":[],"secrets":[]}}
+        {"apiVersion":"v1alpha1","kind":"Function","metadata":{"name":"test","namespace":"default"},"spec":{"image":"image:tag","port":8080,"env":[],"secrets":[],"configMaps":[]}}
         """;
 
         Assert.Equal( expectedJson, json );
